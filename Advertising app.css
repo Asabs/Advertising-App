@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-size: 300px 100px;
+  padding: 30%;
+  
+  background:url(ads.jpg); 
+  background-repeat:no-repeat;
+  background-size: contain;
+ 
+  
+  
+}
+.Home{ color: rgb(233, 1, 1);
+  text-decoration:wavy;
+}
+.Locations{ color:rgb(230, 1, 1);
+  text-decoration: none;
+}
+
+/*For the top navigation*/
+.topNav{
+  background-color: aqua;
+  position: absolute;
+  top: -1rem;
+  left: 0;
+  right: 0;
+  height: 6rem;
+  font-size:1.3rem;
+  padding: 1rem;
+  opacity: 0.5cm;
+}
+.main{
+  background-color: brown;
+}
+
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
